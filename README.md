@@ -62,16 +62,19 @@ The r-value is: 0.09694943787266845
 #### Southern Hemisphere: Cloudiness (%) vs. Latitude
 
 ![Southern Hemisphere: Cloudiness (%) vs. Latitude](/output_data/SH_Cloudiness_Lat_LR.png)
+
 The r-value is: 0.15138512985420405
 
 #### Northern Hemisphere: Wind Speed (m/s) vs. Latitude
 
 ![Northern Hemisphere: Wind Speed (m/s) vs. Latitude](/output_data/NH_WindSpeed_Lat_LR.png)
+
 The r-value is: 0.03879504577913238
 
 #### Southern Hemisphere: Wind Speed (m/s) vs. Latitude
 
 ![Southern Hemisphere: Wind Speed (m/s) vs. Latitude](/output_data/SH_WindSpeed_Lat_LR.png)
+
 The r-value is: 0.1182136466749865
 
 
@@ -116,7 +119,7 @@ The required information for each hotel can be obsevered in the Jupyter Notebook
 
 3. WeatherPy submission is available under https://github.com/lcardsvr/python-api-challenge/blob/main/WeatherPy.ipynb
 
-4. Vacation submission is available under https://github.com/lcardsvr/python-api-challenge/blob/main/VacationPy.ipynb
+4. VacationPy submission is available under https://github.com/lcardsvr/python-api-challenge/blob/main/VacationPy.ipynb
 
 
 
