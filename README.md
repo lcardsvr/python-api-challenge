@@ -62,19 +62,16 @@ The r-value is: 0.09694943787266845
 #### Southern Hemisphere: Cloudiness (%) vs. Latitude
 
 ![Southern Hemisphere: Cloudiness (%) vs. Latitude](/output_data/SH_Cloudiness_Lat_LR.png)
-
 The r-value is: 0.15138512985420405
 
 #### Northern Hemisphere: Wind Speed (m/s) vs. Latitude
 
 ![Northern Hemisphere: Wind Speed (m/s) vs. Latitude](/output_data/NH_WindSpeed_Lat_LR.png)
-
 The r-value is: 0.03879504577913238
 
 #### Southern Hemisphere: Wind Speed (m/s) vs. Latitude
 
 ![Southern Hemisphere: Wind Speed (m/s) vs. Latitude](/output_data/SH_WindSpeed_Lat_LR.png)
-
 The r-value is: 0.1182136466749865
 
 
@@ -105,10 +102,11 @@ Minimum Temperature = 15 deg C
 Maximum Wind Speed  = 2 m/s
 Maximum Cloudiness = 30 %
 
-### Map with hotel locations as per above requirements is below. The requires information for each hotel can be obsevered in the Jupyter Notebook for the submission
+### Map with hotel locations as per above requirements is below. 
 
 ![Hotel Locations](/output_data/Location_Hotels_Conditions.png)
 
+The required information for each hotel can be obsevered in the Jupyter Notebook for the submission
 
 ## Submission
 
