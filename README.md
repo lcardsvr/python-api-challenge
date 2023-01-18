@@ -10,67 +10,75 @@ The code generated random geographic coordinates and the nearest city to each la
 
 ### Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 
-Latitude vs. Temperature
+#### Latitude vs. Temperature
 
 ![Latitude vs. Temperature](/output_data/Fig1.png)
 
-Latitude vs. Humidity
+#### Latitude vs. Humidity
 
 ![Latitude vs. Humidity](/output_data/Fig2.png)
 
-Latitude vs. Cloudiness
+#### Latitude vs. Cloudiness
 
 ![Latitude vs. Cloudiness](/output_data/Fig3.png)
 
-Latitude vs. Wind Speed
+#### Latitude vs. Wind Speed
 
 ![Latitude vs. Wind Speed](/output_data/Fig4.png)
 
 
 ### Requirement 2: Compute Linear Regression for Each Relationship
 
-Northern Hemisphere: Temperature (C) vs. Latitude
+#### Northern Hemisphere: Temperature (C) vs. Latitude
 
 ![Northern Hemisphere: Temperature (C) vs. Latitude](/output_data/NH_Temp_Lat_LR.png)
+
 The r-value is: 0.7302916346197993
 
-Southern Hemisphere: Temperature (C) vs. Latitude
+#### Southern Hemisphere: Temperature (C) vs. Latitude
 
 ![Southern Hemisphere: Temperature (C) vs. Latitude](/output_data/SH_Temp_Lat_LR.png)
+
 The r-value is: 0.11543384334841626
 
-Northern Hemisphere: Humidity (%) vs. Latitude
+#### Northern Hemisphere: Humidity (%) vs. Latitude
 
 ![Northern Hemisphere: Humidity (%) vs. Latitude](/output_data/NH_Humidity_Lat_LR.png)
+
 The r-value is: 0.16327497478004085
 
-Southern Hemisphere: Humidity (%) vs. Latitude
+#### Southern Hemisphere: Humidity (%) vs. Latitude
 
 ![Southern Hemisphere: Humidity (%) vs. Latitude](/output_data/SH_Humidity_Lat_LR.png)
+
 The r-value is: 0.08152682042894913
 
-Northern Hemisphere: Cloudiness (%) vs. Latitude
+#### Northern Hemisphere: Cloudiness (%) vs. Latitude
 
 ![Northern Hemisphere: Cloudiness (%) vs. Latitude](/output_data/NH_Cloudiness_Lat_LR.png)
+
 The r-value is: 0.09694943787266845
 
-Southern Hemisphere: Cloudiness (%) vs. Latitude
+#### Southern Hemisphere: Cloudiness (%) vs. Latitude
 
 ![Southern Hemisphere: Cloudiness (%) vs. Latitude](/output_data/SH_Cloudiness_Lat_LR.png)
+
 The r-value is: 0.15138512985420405
 
-Northern Hemisphere: Wind Speed (m/s) vs. Latitude
+#### Northern Hemisphere: Wind Speed (m/s) vs. Latitude
 
 ![Northern Hemisphere: Wind Speed (m/s) vs. Latitude](/output_data/NH_WindSpeed_Lat_LR.png)
+
 The r-value is: 0.03879504577913238
 
-Southern Hemisphere: Wind Speed (m/s) vs. Latitude
+#### Southern Hemisphere: Wind Speed (m/s) vs. Latitude
 
 ![Southern Hemisphere: Wind Speed (m/s) vs. Latitude](/output_data/SH_WindSpeed_Lat_LR.png)
+
 The r-value is: 0.1182136466749865
 
 
-#### Results and analysis
+### Results and analysis
 
 There is a strong correlation between Temperature and Latitude in the Northern Hemisphere. On the other hand, the correlation in the Southern Hemisphere is very weak. For the particular dataset under study, there are more samples in the Northern Hemisphere than in the Southern Hemisphere (371 vs. 190, respectively).
 
@@ -86,7 +94,7 @@ There is none to very weak correlation for the Wind Speed and Latitude in both t
 ## VacationPy Results
 
 
-Map that displays a point for every city based on the coorindates from WeatherPy
+### Map that displays a point for every city based on the coorindates from WeatherPy
 
 ![Cities previous dataset](/output_data/Coordinates_Map.png)
 
@@ -97,7 +105,7 @@ Minimum Temperature = 15 deg C
 Maximum Wind Speed  = 2 m/s
 Maximum Cloudiness = 30 %
 
-Map with hotel locations as per above requirements is below. The requires information for each hotel can be obsevered in the Jupyter Notebook for the submission
+### Map with hotel locations as per above requirements is below. The requires information for each hotel can be obsevered in the Jupyter Notebook for the submission
 
 ![Hotel Locations](/output_data/Location_Hotels_Conditions.png)
 
